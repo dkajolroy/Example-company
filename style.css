@@ -572,10 +572,13 @@ p{
     font-size: 16px;
 }
 
+.footer-area>.bottom {
+    overflow: hidden;
+}
 .footer-area>.bottom ul{
     display: flex;
-    justify-content: right;
     list-style: none;
+    float: right;
 }
 
 .footer-area>.bottom ul i{
