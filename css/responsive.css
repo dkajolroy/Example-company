@@ -1,0 +1,125 @@
+/* =====================================
+    @Media Quarys
+===================================== */
+
+@media all and (max-width : 991px){
+    .header-area .bottom-area {
+        height: 50vh;
+    }
+    h2 {
+        max-width: 100%;
+    }
+    p {
+        max-width: 95%;
+    }
+    .contact-area p {
+        max-width: 70%;
+    }
+    .contact-area select {
+        width: 50%;
+    }
+    .contact-area input {
+        width: 50%;
+    }
+    .contact-area input[type="email"] {
+        width: 100%;
+    }
+    .contact-area .rows textarea {
+        width: 100%;
+    }
+    .contact-area .buttons {
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width : 767px){
+    .footer-area > .bottom p{
+        display: block;
+        float: none;
+        font-size: 12px;
+    }
+    .footer-area > .bottom ul {
+        justify-content: center;
+    }
+    h5 {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin: 20px 0 5px;
+    }
+    .footer-area .top .right {
+        max-width: 29%;
+    }
+    .about-area article span {
+        font-size: 13px;
+    }
+    .skills-area .box p {
+        font-size: 12px;
+    }
+    .skills-area .counter {
+        font-size: 35px;
+    }
+    .circle-chart {
+        width: 100px;
+        height: 100px;
+    }
+    .portfolio-area .row > * {
+        width: 50%;
+        margin: 20px 0;
+    }
+    .header-area .main-menu{
+        display: none;
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        background-color: #898E8F;
+    }
+    .header-area .main-menu ul{
+        display: block;
+    }
+    .header-area .logo .bars{
+        display: block;
+    }
+
+}
+
+@media all and (max-width : 575px){
+    .contact-area .rows {
+        display: block;
+        text-align: center;
+    }
+    .contact-area input {
+        width: 90%;
+    }
+    .contact-area input[type="email"] {
+        width: 90%;
+    }
+    .contact-area select {
+        width: 90%;
+        margin: 20px 0;
+    }
+    .contact-area .rows textarea {
+        width: 90%;
+    }
+    .portfolio-area h2 {
+        max-width: 100%;
+    }
+    .header-area .bottom-area h1 {
+        font-size: 33px;
+    }
+    .header-area .bottom-area h2 {
+        font-size: 22px;
+    }
+    .contact-area h2 {
+        max-width: 100%;
+    }
+    .contact-area p {
+        max-width: 98%;
+    }
+    .contact-area .buttons a {
+        float: none;
+        margin: 15px auto 0;
+        width: 165px;
+        display: block;
+        text-align: center;
+    }
+}
