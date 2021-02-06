@@ -195,6 +195,9 @@ p{
 /* =====================================
           2. Team Area
 ========================================*/
+.team-area {
+    overflow: hidden;
+}
 
 .team-area p{
     margin-top: 50px;
